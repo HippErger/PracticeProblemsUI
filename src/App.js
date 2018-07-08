@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import {connect} from "react-redux"
 import {loadUsers} from "./actions"
+import './stylesheets/app.css'
 
 class App extends Component {
   constructor() {
@@ -15,7 +16,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h2>Hello World</h2>
+        <header>
+          <a href='https://www.linkedin.com/in/claytonrberger/'>LinkedIn </a>
+          <a href='#'>Contact</a>
+          <a href='https://github.com/HippErger'>GitHub</a>
+        </header>
       </div>
     )
   }
