@@ -21,6 +21,7 @@ class App extends Component {
         <header>
           <a href='https://www.linkedin.com/in/claytonrberger/'>LinkedIn </a>
           <a href='#'>Contact</a>
+          <a href='https://repl.it/@HippErger'>Repl.it</a>
           <a href='https://github.com/HippErger'>GitHub</a>
         </header>
         <main>
@@ -28,6 +29,12 @@ class App extends Component {
             <p>In preparation for my next web development job, I've dedicated myself to solving 
               an algorithmic challenge everyday. Here's the UI for each of them.
             </p>
+            <div className='tileScroller'>
+              <div className='singleTile'>X</div>
+              <div className='singleTile'>X</div>
+              <div className='singleTile'>X</div>
+              <div className='singleTile'>X</div>
+            </div>
           </div>
           <p className='withLove'>Built with Love by Clayton Berger</p>
         </main>
