@@ -1,5 +1,22 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Shrikhand', cursive;
+font-family: 'Knewave', cursive;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Abel', sans-serif; */
+
 header {
     display: flex;
     justify-content: space-around;
-    border: solid black .5px; 
+    border: solid #979797 .5px; 
+    background-color: #979797;
+    border-radius: 5px;
+    margin: 2%
 }
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    color: white;
+}
+
