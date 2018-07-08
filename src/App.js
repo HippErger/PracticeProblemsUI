@@ -24,7 +24,12 @@ class App extends Component {
           <a href='https://github.com/HippErger'>GitHub</a>
         </header>
         <main>
-          This is the main
+          <div>
+            <p>In preparation for my next web development job, I've dedicated myself to solving 
+              an algorithmic challenge everyday. Here's the UI for each of them.
+            </p>
+          </div>
+          <p className='withLove'>Built with Love by Clayton Berger</p>
         </main>
       </div>
     )
