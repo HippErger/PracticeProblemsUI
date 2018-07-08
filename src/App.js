@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import {connect} from "react-redux"
 import {loadUsers} from "./actions"
+
+// CSS Styling
 import './stylesheets/app.css'
 
 class App extends Component {
@@ -21,6 +23,9 @@ class App extends Component {
           <a href='#'>Contact</a>
           <a href='https://github.com/HippErger'>GitHub</a>
         </header>
+        <main>
+          This is the main
+        </main>
       </div>
     )
   }
