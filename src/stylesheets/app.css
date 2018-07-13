@@ -23,9 +23,9 @@ a {
 main {
     border: solid black .5px;
     margin: 2%;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
 }
 
 p {
@@ -34,25 +34,60 @@ p {
     font-size: 155%;
     line-height: 210%;
 }
+
 .withLove {
     font-family: 'Shrikhand', cursive;
 }
 
-main > div {
+footer, main > div {
     width: 75%;
     margin: 5% auto;
     text-align: center;
 }
 
-.tileScroller {
+.tileTitleBoard {
+    height: auto;
+    width: 75%;
+    border: solid black .5px;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 1%;
 }
 
-.singleTile {
-    height: 50px;
-    width: 50px;
+.tileTitle {
+    height: 18%;
+    width: 27%;
+    margin: auto;
+    border: solid black .5px; 
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 155%;
+    line-height: 210%;
+}
+
+.shapeBoard {
+    height: 45vh;
+    width: 75%;
     border: solid black .5px;
-    margin: 1%
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+}
+
+.shapeTile {
+    height: 90%;
+    width: 27%;
+    margin: auto;
+    border: solid black .5px;
+}
+
+.car2GoTitle {
+    background-image: url("../images/car2go_image2.jpg");
+    height: 18%;
+    width: 27%;
+    margin: auto;
+    border: solid black .5px; 
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 155%;
+    line-height: 210%;
 }
 

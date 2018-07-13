@@ -1,9 +1,13 @@
-import React, { Component } from "react"
-import {connect} from "react-redux"
-import {loadUsers} from "./actions"
+import React, { Component } from 'react'
+import {connect} from 'react-redux'
+import {loadUsers} from './actions'
 
-// CSS Styling
+// style imports
 import './stylesheets/app.css'
+
+// images 
+import './images/car2go_image2.jpg'
+
 
 class App extends Component {
   constructor() {
@@ -16,6 +20,7 @@ class App extends Component {
   // }
 
   render() {
+
     return (
       <div>
         <header>
@@ -25,19 +30,27 @@ class App extends Component {
           <a href='https://github.com/HippErger'>GitHub</a>
         </header>
         <main>
-          <div>
-            <p>In preparation for my next web development job, I've dedicated myself to solving 
-              an algorithmic challenge everyday. Here's the UI for each of them.
-            </p>
-            <div className='tileScroller'>
-              <div className='singleTile'>X</div>
-              <div className='singleTile'>X</div>
-              <div className='singleTile'>X</div>
-              <div className='singleTile'>X</div>
+          <div className='tileTitleBoard'>
+            <div className='tileTitle car2GoTitle'> Car2Go Hackathon </div>
+            <div className='tileTitle'> React Tic Tac Toe </div>
+            <div className='tileTitle'> JQuery Towers of Hanoi </div>
+          </div>
+          <div className='shapeBoard'>
+            <div className='shapeTile'>
+              Hello
+            </div>
+            <div className='shapeTile'>
+              Hello
+            </div>
+            <div className='shapeTile'>
+              Hello
             </div>
           </div>
-          <p className='withLove'>Built with Love by Clayton Berger</p>
+          
         </main>
+        <footer>
+          <p className='withLove'>Built with Love by Clayton Berger</p>
+        </footer>
       </div>
     )
   }
