@@ -3,10 +3,10 @@ import {connect} from 'react-redux'
 import {loadUsers} from './actions'
 
 // style imports
-import './stylesheets/app.css'
+import  './stylesheets/app.css'
 
 // images 
-import './images/car2go_image2.jpg'
+import car2goImage from './images/car2go_image2.jpg'
 
 
 class App extends Component {
@@ -31,7 +31,10 @@ class App extends Component {
         </header>
         <main>
           <div className='tileTitleBoard'>
-            <div className='tileTitle car2GoTitle'> Car2Go Hackathon </div>
+            <div className='tileTitle car2GoTitle'> 
+              <h6>CAR2GO</h6>
+              <span>Hackathon</span>
+            </div>
             <div className='tileTitle'> React Tic Tac Toe </div>
             <div className='tileTitle'> JQuery Towers of Hanoi </div>
           </div>

@@ -81,13 +81,24 @@ footer, main > div {
 }
 
 .car2GoTitle {
-    background-image: url("../images/car2go_image2.jpg");
-    height: 18%;
-    width: 27%;
-    margin: auto;
-    border: solid black .5px; 
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 155%;
-    line-height: 210%;
+    width: 15%;
+    margin: auto 9% auto 9%;
+    background-color: #C6E2F0;
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 35px;
+    color: #009FE3;
+    border-radius: 10px;
+    border: #009FE3 solid 2px;
+    border-bottom-color: #009FE3;
+    
+}
+
+.car2GoTitle > h6 {
+    font-size: 45px;
+    margin: 0px auto -40px;
+}
+
+.car2GoTitle > span {
+    font-size: 10px;
 }
 
